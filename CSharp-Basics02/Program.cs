@@ -109,6 +109,18 @@
 
 
 
+            // Answer Question 9
+
+            int pageCount = 464;
+
+            string pageString = pageCount.ToString();
+
+            Console.WriteLine(pageString);
+            Console.WriteLine(pageString.GetType());
+
+
+
+
 
         }
     }
