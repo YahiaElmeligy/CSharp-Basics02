@@ -33,6 +33,28 @@
 
             Console.WriteLine(pages);
 
+
+
+            // Answer Question 4
+
+            try
+            {
+                int zero = 0;
+                int result = 10 / zero;
+
+                Console.WriteLine(result);
+            }
+
+            catch (DivideByZeroException)
+            {
+                Console.WriteLine("Cannot divide by zero");
+            }
+
+            finally
+            {
+                Console.WriteLine("Done");
+            }
+
         }
     }
 
