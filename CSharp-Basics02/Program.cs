@@ -120,6 +120,20 @@
 
 
 
+            // Answer Question 10
+
+            int copies = 100;
+
+            object boxedCopies = copies;  // Boxing
+
+            int unboxedCopies = (int)boxedCopies;  // Unboxing
+
+            Console.WriteLine(boxedCopies);
+            Console.WriteLine(unboxedCopies);
+
+
+
+
 
 
         }
