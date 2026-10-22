@@ -66,6 +66,17 @@
             Console.WriteLine(doublePages);
 
 
+
+            // Answer Question 6
+
+            double price = 49.99;
+
+            int intPrice = (int)price;
+
+            Console.WriteLine(intPrice);
+
+
+
         }
     }
 
