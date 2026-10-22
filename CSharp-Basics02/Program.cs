@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             // Answer Question 1
+
             Book book = new Book
             {
                 Title = "C# Basics",
@@ -13,6 +14,16 @@
 
             object obj = book;
             Console.WriteLine(obj);
+
+
+
+            // Answer Question 2
+
+            Console.WriteLine(book.ToString());
+            Console.WriteLine(book.Equals(book));
+            Console.WriteLine(book.GetHashCode());
+            Console.WriteLine(book.GetType());
+
 
         }
     }
