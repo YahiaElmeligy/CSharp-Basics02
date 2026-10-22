@@ -25,6 +25,14 @@
             Console.WriteLine(book.GetType());
 
 
+
+
+            // Answer Question 3
+
+            int pages = 464;
+
+            Console.WriteLine(pages);
+
         }
     }
 
