@@ -77,6 +77,17 @@
 
 
 
+            // Answer Question 7
+
+            string pagesText = "464";
+
+            int convertedPages = Convert.ToInt32(pagesText);
+
+            Console.WriteLine(convertedPages);
+
+
+
+
         }
     }
 
