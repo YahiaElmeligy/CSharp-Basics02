@@ -55,6 +55,17 @@
                 Console.WriteLine("Done");
             }
 
+
+
+            // Answer Question 5
+
+            int bookPages = 300;
+
+            double doublePages = bookPages;
+
+            Console.WriteLine(doublePages);
+
+
         }
     }
 
