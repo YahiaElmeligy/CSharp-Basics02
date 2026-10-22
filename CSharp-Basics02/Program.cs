@@ -87,6 +87,28 @@
 
 
 
+            // Answer Question 8
+
+            string yearText = "2023";
+
+            int year = int.Parse(yearText);
+
+            Console.WriteLine(year);
+
+            string badText = "abc";
+
+            if (int.TryParse(badText, out int number))
+            {
+                Console.WriteLine(number);
+            }
+
+            else
+            {
+                Console.WriteLine("Invalid number");
+            }
+
+
+
 
         }
     }
